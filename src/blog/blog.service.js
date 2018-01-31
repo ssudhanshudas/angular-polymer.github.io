@@ -7,7 +7,7 @@
         /////////////////////////////////////////////////////////
 
         function fetchBlogEntries() {
-            return $http.get('blog/blog.data.json').then(function (response) {
+            return $http.get('src/blog/blog.data.json').then(function (response) {
                 return response.data;
             });
         }

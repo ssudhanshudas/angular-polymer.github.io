@@ -1,0 +1,40 @@
+<link href="http://polygit.org/components/polymer/polymer.html" rel="import">
+<dom-module id="sd-chip">
+    <template>
+        <style>
+            :host {
+                max-width: 150px;
+                border: solid 1px teal;
+                border-radius: 4px;
+                display: table;
+            }
+            .title{
+                color:white;
+                background-color: teal;
+                line-height: 24px;
+                font-size: 16px;
+                overflow: hidden;
+                padding: 2px 8px 2px 4px;
+            }
+        
+            .icon{
+                width: 24px;
+                height: 24px;
+                padding: 8px 8px 8px 4px;
+            }
+        </style>
+        <span>
+            <img src="polymer.png" alt="polymer" title="polymer" class="icon">
+            <span class="title"></span>
+        </span>
+    </template>
+    
+    <script>
+        var ChipsELement = Polymer.Class({
+            is: "sd-chip",
+            created : function() {
+                console.log('Instantiated');
+            }
+        });
+    </script>
+</dom-module>

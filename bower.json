@@ -1,0 +1,14 @@
+{
+  "name": "angular-polymer-Karma",
+  "dependencies": {
+    "angular": "~1.5.7",
+    "angular-animate": "~1.5.7",
+    "angular-resource": "~1.5.7",
+    "angular-route": "~1.5.7",
+    "angular-mocks": "~1.5.7",
+    "jasmine": "~2.0.0",
+    "toastr": "~2.0.3",
+    "Polymer/polymer": "^2.0.0",
+    "angular-ui-router": "0.2.15"
+  }
+}

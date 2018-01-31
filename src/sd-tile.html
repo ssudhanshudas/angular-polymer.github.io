@@ -1,0 +1,39 @@
+<link href="http://polygit.org/components/polymer/polymer.html" rel="import">
+<dom-module id="sd-tile">
+    <template>
+        <style>
+            :host {
+                max-width: 256px;
+                border: solid 1px teal;
+                border-radius: 4px;
+                display: table;
+            }
+            .title{
+                color:white;
+                background-color: teal;
+                line-height: 24px;
+                font-size: 16px;
+                overflow: hidden;
+                padding: 2px 8px 2px 4px;
+            }
+        
+            .content{
+                color:teal;
+                font-style: italic;
+                max-height: 156px;
+                overflow-y: auto;
+                padding: 8px 8px 8px 4px;
+            }
+        </style>
+        <div class="title">Hello World</div>    
+        <div class="content">
+            Hello User
+        </div>
+    </template>
+    
+    <script>
+        Polymer({
+            is: "sd-tile"
+        });        
+    </script>
+</dom-module>

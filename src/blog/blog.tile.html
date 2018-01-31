@@ -1,0 +1,16 @@
+<link rel="import" href="../lib/polymer/polymer.html">
+<dom-module id='blog'>  
+  <link rel="import" type='css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <template>
+    <p>
+      <template is='dom-if' if="{{!edit}}">
+        <span>{{fullname}}</span>
+      </template>
+      <template is="dom-if" if="{{edit}}">
+        <label>First:</label> <input type="text" value="{{first::input}}"> <label>Last:</label> <input type="text" value="{{last::input}}">
+      </template>
+      <button on-click="toggleEdit"><i class="fa fa-pencil"></i></button>
+    </p>
+  </template>
+</dom-module>  
+<script src="blog.tile.js"></script>

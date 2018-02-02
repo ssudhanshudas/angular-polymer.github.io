@@ -6,23 +6,33 @@
     <title>Angular Polymer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/css/tether.min.css">
+    <link rel="stylesheet" href="src/blog/blog.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/2.3.1/lib/polymer/polymer.html">
+    <link rel="import" href="src/blog/blog.tile.html">
     <script src="src/blog.module.js"></script>
     <script src="src/blog/blog.ctrl.js"></script>
     <script src="src/blog/blog.service.js"></script>
+    <style>
+        .toolbar {
+            display: flex;
+            flex-direction: row;
+        }
+        a {
+            color: darkcyan;
+            padding-right: 10px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body ng-app="myBlog">
-    <div>
-        <span>
-            <a ui-sref="home">Home</a>
-            <a ui-sref="blog">Blog</a>
-            <a ui-sref="about">About</a>
-        </span>
+    <div class="toolbar">
+            <a ui-sref="home"><h3><span class="badge badge-secondary">Home</span></h3></a>
         
+        <a ui-sref="about" href="/about"><h3><span class="badge badge-secondary">About</span></h3></a>
     </div>
     <div ui-view></div>
 </body>

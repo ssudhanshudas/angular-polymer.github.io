@@ -1,5 +1,5 @@
 Polymer({
-    is: 'blog',
+    is: 'blog-tile',
     properties: {
       blog:Object
     },

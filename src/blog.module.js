@@ -3,13 +3,10 @@
 
     angular.module('myBlog', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('home');
         
         $stateProvider.state('home', {
             url : '/home',
-            templateUrl: 'src/home/home.partial.html'
-        }).state('blog', {
-            url : '/blog',
             templateUrl: 'src/blog/blog.partial.html',
             controller: 'BlogController as blogController',
             resolve : {

@@ -2,60 +2,70 @@
     "id" : "00001",
     "author":"Mike B",
     "title": "Ionic",
-    "date" : "2017-08-01",
+    "postedOn" : "2017-08-01",
+    "image": "1.jpeg",
     "content" : "As many of you know, we’ve been working incredibly hard to make Ionic a great option for building Progressive Web Apps, and today I’m happy to announce a project that furthers those initiatives: The beta release of the Ionic PWA Toolkit! The Ionic PWA toolkit is the recommended way to easily build fast, production-ready PWAs with Ionic. Let’s dive in and go over why we’re building this, what it offers you as a developer, what’s in store for the stable release, and finally, how to get started using it!"
 },{
     "id" : "00002",
     "author":"Daniel W",
     "title": "PWA",
-    "date" : "2017-09-01",
+    "postedOn" : "2017-09-01",
+    "image": "2.jpeg",
     "content" : "As many of you know, we’ve been working incredibly hard to make Ionic a great option for building Progressive Web Apps, and today I’m happy to announce a project that furthers those initiatives: The beta release of the Ionic PWA Toolkit! The Ionic PWA toolkit is the recommended way to easily build fast, production-ready PWAs with Ionic. Let’s dive in and go over why we’re building this, what it offers you as a developer, what’s in store for the stable release, and finally, how to get started using it!"
 },{
     "id" : "00003",
     "author":"Steve P",
     "title": "Ionic PWA",
-    "date" : "2017-10-01",
+    "postedOn" : "2017-10-01",
+    "image": "3.jpeg",
     "content" : "As many of you know, we’ve been working incredibly hard to make Ionic a great option for building Progressive Web Apps, and today I’m happy to announce a project that furthers those initiatives: The beta release of the Ionic PWA Toolkit! The Ionic PWA toolkit is the recommended way to easily build fast, production-ready PWAs with Ionic. Let’s dive in and go over why we’re building this, what it offers you as a developer, what’s in store for the stable release, and finally, how to get started using it!"
 },{
     "id" : "00004",
     "author":"Suresh A",
     "title": "Stencil",
-    "date" : "2017-01-01",
+    "postedOn" : "2017-01-01",
+    "image": "4.jpeg",
     "content" : "Stencil is a JavaScript tool that enables you to build framework-independent and standards-compliant web components using technologies, such as TypeScript and JSX. Stencil provides APIs that makes writing fast components a breeze. These APIs — Virtual DOM, JSX, Async rendering and Reactive data-binding — equip developers with superpowers to create custom web components. Popular JavaScript frameworks, including React, Vue and Angular, all have something in common – the ability to create custom and reusable components. Check out this StencilJS Guide written by Christian Nwamba for a succinct primer on generating pure custom components."
 },{
     "id" : "00005",
     "author":"Steve D",
     "title": "Geolocation",
-    "date" : "2017-02-01",
+    "postedOn" : "2017-02-01",
+    "image": "5.jpeg",
     "content" : "We receive a large number of bug reports about Geolocation not working on Android. In fact, we at Ionic often run into the same issues and get worried that we’ve broken something."
 },{
     "id" : "00006",
     "author":"Mike B",
     "title": "Emulator",
-    "date" : "2017-03-01",
+    "postedOn" : "2017-03-01",
+    "image": "4.jpeg",
     "content" : "In the emulator, you must open the Extended controls from the emulator menu, and manually “Send” coordinates to the emulator. The Extended controls can be found in this menu next to the Emulator window:"
 },{
     "id" : "00007",
     "author":"Jean A",
     "title": "Android Geolocation Testing",
-    "date" : "2017-04-01",
+    "postedOn" : "2017-04-01",
+    "image": "3.jpeg",
     "content" : "Android is finicky when it comes to testing Geolocation. Make sure you’re using the Emulator Extended Controls to send Geolocation coordinates, and supply default options to the call. Without keeping these in mind, Geolocation calls may fail or never return!"
 },{
     "id" : "00008",
     "author":"Prost C",
     "title": "Ionic Native",
-    "date" : "2017-05-01",
+    "postedOn" : "2017-05-01",
+    "image": "2.jpeg",
     "content" : "Ionic Native 5 brings the project to fully framework-agnostic status, as we prepare Ionic Framework for a future where our components work in any popular framework, or without one at all. This also means that Ionic Native 5 is the nail in the coffin for ngCordova, as Ionic Native 5 will work in any situation that ngCordova did for AngularJS, along with having many more maintained plugins."
 },{
     "id" : "00009",
     "author":"Jack D",
     "title": "Apple Dev",
-    "date" : "2017-06-01",
+    "postedOn" : "2017-06-01",
+    "image": "1.jpeg",
     "content" : "Every year, Apple chooses a number of top apps and developers to feature in their Best of 2017 List, and this year the Ionic Developer community is crushing it. Some of the Ionic apps that have made it into the chosen few are:"
 },{
     "id" : "00010",
     "author":"Jonny W",
     "title": "Edge & Safari",
-    "date" : "2017-07-01",
+    "postedOn" : "2017-07-01",
+    "image": "5.jpeg",
     "content" : "What is going on, folks! Mike here, with some incredible news. As of today, Edge and Safari have both shipped support for Service Worker in their developer previews! 🎉🎊"
 }]

@@ -1,16 +1,31 @@
-<link rel="import" href="../lib/polymer/polymer.html">
-<dom-module id='blog'>  
-  <link rel="import" type='css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<dom-module id='blog-tile'>  
+    <link type="text/css" rel="stylesheet" href="blog.tile.css">
   <template>
-    <p>
-      <template is='dom-if' if="{{!edit}}">
-        <span>{{fullname}}</span>
-      </template>
-      <template is="dom-if" if="{{edit}}">
-        <label>First:</label> <input type="text" value="{{first::input}}"> <label>Last:</label> <input type="text" value="{{last::input}}">
-      </template>
-      <button on-click="toggleEdit"><i class="fa fa-pencil"></i></button>
-    </p>
+     <style>
+       blog-tile {
+        width: 100%;
+      }
+       img  {
+         width: 100%;
+         height: 300px;
+       }
+       .content {
+         max-height: 10rem;
+         overflow-y: auto;
+       }
+       .title, .author, .posted-on {
+         font-size: 18px;
+         font-weight: 600;
+         padding-bottom: 4px;
+       }
+      </style>
+    <div class="blog-tile" layout="column">
+      <img src="src/images/{{blog.image}}">
+      <div class="title">Title : [[blog.title]]</div>
+      <div class="author">Author : [[blog.author]]</div>
+      <div class="posted-on">Posted On : [[blog.postedOn]]</div>
+      <div class="content">[[blog.content]]</div>
+    </div>
   </template>
 </dom-module>  
 <script src="blog.tile.js"></script>

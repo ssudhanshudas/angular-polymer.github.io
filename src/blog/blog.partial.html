@@ -1,1 +1,10 @@
-<div ng-repeat="blog in blogController.blogEntries">{{blog.id}}</div>
+<div class="main-container">
+    <div class="blog-list">
+        <div ng-repeat="blog in blogController.blogEntries|orderBy:postedOn" 
+            ng-click="blogController.selectedBlog = blog" class="list-item"
+            ng-class="{'selected' : blogController.selectedBlog.id === blog.id}">
+            {{blog.title}}
+        </div> 
+    </div>
+    <blog-tile blog="{{blogController.selectedBlog}}" class="card"></blog-tile>
+</div>

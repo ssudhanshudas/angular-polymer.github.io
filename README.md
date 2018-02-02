@@ -15,5 +15,5 @@ Example project to integrate angular js 1.x with polymer web components.
     - blog-tile has image, title, author, postedDate and content which is bound from angular controller.
 
 # Live Demo :
-    [Demo](https://ssudhanshudas.github.io/angular-polymer.github.io/).
+[Demo](https://ssudhanshudas.github.io/angular-polymer.github.io/).
 
